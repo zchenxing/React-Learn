@@ -1,0 +1,127 @@
+button {
+    padding: 6px 27px;
+    font-weight: 800;
+    border-radius: 3px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    background: rgb(21, 150, 150);
+}
+
+button:active {
+    background: rgb(6, 119, 119);
+}
+
+code {
+    background: rgb(243, 242, 242);
+    padding: 1px 4px;
+    margin: 0 2px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    min-height: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px 30px;
+    background: white;
+    border: .1em solid #ddd;
+}
+
+
+/* ———————————————————————————————— */
+.comment-input {
+    border: .1em solid #ddd;
+    padding: 20px;
+    height: 260px;
+    position: relative;
+}
+
+.comment-input-admin {
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+
+
+.comment-input-admin>input {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    bottom: 0;
+    width: 80%;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+}
+
+
+/* —————————————————————————————————— */
+.comment-input-context {
+    background: rgb(228, 235, 233);
+    margin-top: 20px;
+    position: relative;
+}
+
+.comment-input-context>span {
+    position: absolute;
+}
+
+.comment-input-context>textarea {
+    position: absolute;
+    left: 20%;
+    border: 1px solid #ddd;
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+}
+
+
+
+/* —————————————————————————————————— */
+.comment-input-submit {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+/* —————————————————————————————————————— */
+.comment {
+    width: 100%;
+    padding: 10px 0 25px 0;
+    border-bottom: 1px solid #ddd;
+
+    position: relative;
+}
+
+.comment .comment-item {
+    display: table-cell;
+    padding: 10px;
+}
+
+.comment .delete-comment {
+    position: absolute;
+    padding: 0;
+    top: 10px;
+    right: 0;
+    color: rgb(93, 155, 173);
+    font-size: 13px;
+}
+
+.comment .delete-comment:hover {
+    cursor: pointer;
+}
+
+.comment-user {
+    color: rgb(21, 150, 150);
+}
+
+.createdTime {
+    display: block;
+    text-align: right;
+    color: #aaa;
+}
