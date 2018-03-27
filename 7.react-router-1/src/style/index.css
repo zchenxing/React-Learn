@@ -1,0 +1,57 @@
+header {
+    height: 80px;
+    width: 100%;
+    background: rgb(25, 151, 113);
+    position: relative;
+    z-index: 100;
+    box-shadow: 2px 2px 14px 1px #aaa;
+}
+
+header nav {
+    background: oldlace;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+header nav a {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    padding: 32px;
+}
+
+header nav a:hover {
+    color: mediumvioletred;
+}
+
+.other-slider {
+    background: mediumspringgreen;
+    position: absolute;
+    width: 80px;
+    top: 80px;
+    bottom: 0;
+}
+
+.other-slider li a{
+    display: inline-block;
+    padding: 10px 0;
+    border-bottom: 1px solid #aaa;
+    width: 100%;
+    text-align: center;
+}
+
+.other-slider li a:hover {
+    color: tomato;
+}
+
+.other-detail {
+    position: absolute;
+    left: 80px;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    padding-top: 80px;
+    background: cadetblue;
+}
