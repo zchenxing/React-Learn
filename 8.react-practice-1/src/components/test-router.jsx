@@ -6,8 +6,6 @@ import {
 
 class TestRouter extends Component {
 
-
-
     render() {
 
         const url = this.props.match.url
