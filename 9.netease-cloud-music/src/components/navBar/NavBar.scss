@@ -1,4 +1,55 @@
+$img-height: .9rem;
+
 #nav-bar-box {
-    height: 64px;
+    height: 55px;
     background: #fff;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+
+    
+    
+
+    h1 {
+        font-size: .5rem;
+        font-weight: 300;
+    }
+
+    img {
+        height: $img-height;
+    }
+
+    .left,
+    .center,
+    .right {
+        flex: 1;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .center {
+        flex: 4;
+    }
+    
+    .center input {
+        width: 90%;
+        font-size: .5rem;
+        padding: 4px 15px;
+        border: 1px solid #fff;
+        background: rgb(233, 233, 233);
+        border-radius: 15px;
+        outline: none; /*清除选中效果的默认蓝色边框 */
+        -webkit-appearance: none; /*清除浏览器默认的样式 */
+        line-height: normal; //光标问题 
+    }
+    
+    .center input::-webkit-input-placeholder {
+        padding-left: 10px;
+        color: #aaa;
+    }
+
 }

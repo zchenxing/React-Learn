@@ -1,0 +1,77 @@
+$blur: 40px;
+
+#song-sheet-box {
+
+    header {
+        background: rgba(0,0,0,0);
+    }
+
+    .song-sheet-header {
+        position: relative;
+        color: #fff;
+        height: 7rem;
+        overflow: hidden;
+    }
+
+    .song-sheet-header-cover-up {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+        height: 7rem;
+        overflow: hidden;
+
+        background: rgba(100, 100, 100, .6)
+    }
+  
+    .song-sheet-bg {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        -webkit-filter: blur($blur); /* Chrome, Opera */
+        -moz-filter: blur($blur);
+         -ms-filter: blur($blur);    
+             filter: blur($blur);
+    }
+
+    .song-sheet-cover {
+        position: absolute;
+        left: 15px;
+        width: 3.5rem;
+    }
+
+
+    h2 {
+        position: absolute;
+        left: 4.2rem;
+        top: 2rem;
+        font-size: .55rem;
+    }
+
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 1.3rem;
+        font-size: .4rem;
+        font-weight: 400;
+
+        display: flex;
+
+         div {
+            flex: 1;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            p {
+                font-size: .35rem;
+                margin-top: 7px;
+            }
+         }
+    }
+}

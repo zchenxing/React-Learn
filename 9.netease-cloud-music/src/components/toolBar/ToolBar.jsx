@@ -44,8 +44,7 @@ class ToolBar extends Component {
                         return(
                             <div key={index} className="tool-bar-item" 
                                 style={{width: `${parseInt(100/(this.props.pages.length))}%`}} 
-                                onClick={this.handleToolBar.bind(this, index)}
-                                >
+                                onClick={this.handleToolBar.bind(this, index)}>
                                 <img src={item.name === this.state.current_item.name ? this.state.current_item.icon_p : item.icon} />
                                 <span className={item.name === this.state.current_item.name ? 'press' : ''} >
                                     {item.name}

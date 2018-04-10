@@ -17,7 +17,6 @@ $press_font_color: #e54940;
     flex-direction: row;
 
     .tool-bar-item {
-        border-left: 1px solid #ddf;
         line-height: 3em;
         text-align: center;
         padding-top: 5px;
@@ -35,7 +34,7 @@ $press_font_color: #e54940;
     .tool-bar-item span {
         display: inline-block;
         color: $default_font_color;
-        font-size: 12px;
+        font-size: .3rem;
         line-height: 17px;
     }
 

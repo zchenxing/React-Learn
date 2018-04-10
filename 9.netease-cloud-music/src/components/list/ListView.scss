@@ -1,0 +1,65 @@
+@import '../../assets/sass/style.scss';
+
+#list-view-box {
+
+
+    .list-view-item {
+        position: relative;
+        padding: 5px;
+        height: 1.5rem;
+        overflow: hidden;
+    }
+
+    .list-view-num {
+        position: absolute;
+        left: 0;
+        width: 1.5rem;
+        height: 100%;
+        font-size: .5rem;
+        font-weight: 500;
+        color: $grayFontColor;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+
+    .list-view-item-detail {
+        position: absolute;
+        left: 1.5rem;
+        border-bottom: .8px solid $grayFontColor;
+        width: 90%;
+
+        .left {
+            width: 70%;
+        }
+    }
+
+
+    h4 {
+        padding: .1rem;
+        font-size: .5rem;
+        height: .8rem;
+        line-height: .8rem;
+
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+
+        span {
+            color: $grayFontColor;
+        }
+    }
+
+
+    .list-view-item-artist {
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        
+        height: .5rem;
+        font-size: .4rem;
+        font-weight: 400;
+        color: $grayFontColor;
+    }
+
+
+}

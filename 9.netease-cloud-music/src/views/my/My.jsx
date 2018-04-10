@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import NavBar from '../../components/navBar/NavBar'
+
 
 class My extends Component {
+
+    constructor(props) {
+        super(props);
+        
+    }
+    
 
     render() {
         return (
             <div>
-                My
+                <NavBar title="我的音乐" />
             </div>
         );
     }

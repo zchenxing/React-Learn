@@ -16,14 +16,16 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    // color: rgb(49, 45, 45);
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+html,body {
     line-height: 1;
     width: 100%;
     height: 100%;
@@ -42,4 +44,9 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+button {
+    list-style-type:none;
+    background:none;
+    outline: none;
 }
